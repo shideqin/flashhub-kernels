@@ -13,6 +13,10 @@ Kernel packages on the flashhub CDN are made to be:
 - **Verified**: every artifact is checked against the sha256 digests in its
   `metadata.json` before loading.
 
+For deploying the published kernel packages on a new machine (CDN loading,
+offline artifact loading, running tests, rebuilding), see
+[USAGE.md](USAGE.md).
+
 ## 🚀 Quick Start
 
 Install the `flashhub-kernels` package (requires `torch>=2.0`):
